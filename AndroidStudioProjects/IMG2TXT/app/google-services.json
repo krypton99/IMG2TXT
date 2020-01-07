@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "496893408266",
+    "firebase_url": "https://img2txt-eaee6.firebaseio.com",
+    "project_id": "img2txt-eaee6",
+    "storage_bucket": "img2txt-eaee6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496893408266:android:3b14bd362580fe2edddbf3",
+        "android_client_info": {
+          "package_name": "com.app.img2txt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496893408266-qtfmnkp8inoc2j7ae4819ftpgo1k1idb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNpnjGG8YEHEcJTcjI4iuTBei9Pw38fH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496893408266-qtfmnkp8inoc2j7ae4819ftpgo1k1idb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
