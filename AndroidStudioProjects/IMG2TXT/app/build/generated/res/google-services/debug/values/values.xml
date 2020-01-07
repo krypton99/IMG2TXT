@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">496893408266-qtfmnkp8inoc2j7ae4819ftpgo1k1idb.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://img2txt-eaee6.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">496893408266</string>
+    <string name="google_api_key" translatable="false">AIzaSyDNpnjGG8YEHEcJTcjI4iuTBei9Pw38fH0</string>
+    <string name="google_app_id" translatable="false">1:496893408266:android:3b14bd362580fe2edddbf3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDNpnjGG8YEHEcJTcjI4iuTBei9Pw38fH0</string>
+    <string name="google_storage_bucket" translatable="false">img2txt-eaee6.appspot.com</string>
+    <string name="project_id" translatable="false">img2txt-eaee6</string>
+</resources>

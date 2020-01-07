@@ -1,0 +1,279 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.app.img2txt"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:6:5-40
+12-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:6:18-37
+13
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:7:5-64
+14-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:7:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:8:5-80
+15-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:9:5-79
+16-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:9:22-77
+17
+18    <uses-feature
+18-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:10:5-12:35
+19        android:name="android.hardware.camera"
+19-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:11:9-47
+20        android:required="true" />
+20-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:12:9-32
+21
+22    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+23    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\bd30aa50cc2686f5674b9b41f989caef\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:13:5-79
+24-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\bd30aa50cc2686f5674b9b41f989caef\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:13:22-76
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\bd30aa50cc2686f5674b9b41f989caef\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:14:5-67
+25-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\bd30aa50cc2686f5674b9b41f989caef\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:14:22-64
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06b68007b1780144c71854a876c5a5e2\play-services-measurement-api-17.2.0\AndroidManifest.xml:24:5-68
+26-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06b68007b1780144c71854a876c5a5e2\play-services-measurement-api-17.2.0\AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:26:22-107
+29
+30    <application
+30-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:14:5-51:19
+31        android:allowBackup="true"
+31-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:15:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.0.1] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06765f3ecebe357db4e2ec12966c9e91\core-1.0.1\AndroidManifest.xml:22:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:16:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:17:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:18:9-54
+37        android:supportsRtl="true"
+37-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:19:9-35
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme" >
+39-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:20:9-40
+40        <activity android:name="com.app.img2txt.ProcessImg" />
+40-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:21:9-57
+40-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:21:19-45
+41        <activity
+41-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:22:9-30:20
+42            android:name="com.app.img2txt.MainActivity"
+42-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:23:13-41
+43            android:screenOrientation="portrait" >
+43-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:24:13-49
+44            <intent-filter>
+44-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:25:13-29:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:26:17-69
+45-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:26:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:28:17-77
+47-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:28:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+52            android:name="androidx.core.content.FileProvider"
+52-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:32:13-62
+53            android:authorities="com.app.img2txt.provider"
+53-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:33:13-60
+54            android:exported="false"
+54-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:34:13-37
+55            android:grantUriPermissions="true" >
+55-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:35:13-47
+56            <meta-data
+56-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:36:13-38:57
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:37:17-67
+58                android:resource="@xml/provider_paths" />
+58-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:38:17-55
+59        </provider>
+60
+61        <meta-data
+61-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:40:9-42:35
+62            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+62-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:41:13-70
+63            android:value="ocr" />
+63-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:42:13-32
+64        <meta-data
+64-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:43:9-45:69
+65            android:name="com.google.android.gms.version"
+65-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:44:13-58
+66            android:value="@integer/google_play_services_version" /> <!-- version -->
+66-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:45:13-66
+67        <meta-data
+67-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:46:9-48:39
+68            android:name="com.google.android.gms.vision.DEPENDENCIES"
+68-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:47:13-70
+69            android:value="barcode" />
+69-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:48:13-36
+70
+71        <activity
+71-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:49:9-50:58
+72            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+72-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:49:19-82
+73            android:theme="@style/Base.Theme.AppCompat" />
+73-->C:\Users\krypton\AndroidStudioProjects\IMG2TXT\app\src\main\AndroidManifest.xml:50:13-56
+74
+75        <service
+75-->[com.google.firebase:firebase-ml-vision:24.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\1994578727d86e9130bc6857a1310c0b\firebase-ml-vision-24.0.0\AndroidManifest.xml:9:9-15:19
+76            android:name="com.google.firebase.components.ComponentDiscoveryService"
+76-->[com.google.firebase:firebase-ml-vision:24.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\1994578727d86e9130bc6857a1310c0b\firebase-ml-vision-24.0.0\AndroidManifest.xml:10:13-84
+77            android:directBootAware="true"
+77-->[com.google.firebase:firebase-common:19.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\881b429d8f9b3a6d7be45bbfd29342d9\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+78            android:exported="false" >
+78-->[com.google.firebase:firebase-ml-vision:24.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\1994578727d86e9130bc6857a1310c0b\firebase-ml-vision-24.0.0\AndroidManifest.xml:11:13-37
+79            <meta-data
+79-->[com.google.firebase:firebase-ml-vision:24.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\1994578727d86e9130bc6857a1310c0b\firebase-ml-vision-24.0.0\AndroidManifest.xml:12:13-14:85
+80                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+80-->[com.google.firebase:firebase-ml-vision:24.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\1994578727d86e9130bc6857a1310c0b\firebase-ml-vision-24.0.0\AndroidManifest.xml:13:17-108
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-ml-vision:24.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\1994578727d86e9130bc6857a1310c0b\firebase-ml-vision-24.0.0\AndroidManifest.xml:14:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\73464146f086449b2a5f81511a217a66\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+83                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+83-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\73464146f086449b2a5f81511a217a66\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\73464146f086449b2a5f81511a217a66\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\bd30aa50cc2686f5674b9b41f989caef\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:20:13-22:85
+86                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+86-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\bd30aa50cc2686f5674b9b41f989caef\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:21:17-111
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\bd30aa50cc2686f5674b9b41f989caef\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:22:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-ml-common:22.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\c13d4324c52c3003a10092c724f00efd\firebase-ml-common-22.0.0\AndroidManifest.xml:11:13-13:85
+89                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+89-->[com.google.firebase:firebase-ml-common:22.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\c13d4324c52c3003a10092c724f00efd\firebase-ml-common-22.0.0\AndroidManifest.xml:12:17-117
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-ml-common:22.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\c13d4324c52c3003a10092c724f00efd\firebase-ml-common-22.0.0\AndroidManifest.xml:13:17-82
+91            <meta-data
+91-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06b68007b1780144c71854a876c5a5e2\play-services-measurement-api-17.2.0\AndroidManifest.xml:30:13-32:85
+92                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+92-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06b68007b1780144c71854a876c5a5e2\play-services-measurement-api-17.2.0\AndroidManifest.xml:31:17-139
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06b68007b1780144c71854a876c5a5e2\play-services-measurement-api-17.2.0\AndroidManifest.xml:32:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+95                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+95-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+97        </service>
+98
+99        <activity
+99-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\73464146f086449b2a5f81511a217a66\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+100            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+100-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\73464146f086449b2a5f81511a217a66\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+101            android:excludeFromRecents="true"
+101-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\73464146f086449b2a5f81511a217a66\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+102            android:exported="true"
+102-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\73464146f086449b2a5f81511a217a66\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+103            android:launchMode="singleTask"
+103-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\73464146f086449b2a5f81511a217a66\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+104            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+104-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\73464146f086449b2a5f81511a217a66\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\73464146f086449b2a5f81511a217a66\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+106
+107        <receiver
+107-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+108            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+108-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+109            android:exported="true"
+109-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+110            android:permission="com.google.android.c2dm.permission.SEND" >
+110-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+111            <intent-filter>
+111-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+112                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+112-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+112-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\25321f065c8bca60b9e8591191120aa1\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+113            </intent-filter>
+114        </receiver>
+115
+116        <activity
+116-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\9ded089c40adfdba3d956c6eefa72df9\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+117            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+117-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\9ded089c40adfdba3d956c6eefa72df9\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+118            android:exported="false"
+118-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\9ded089c40adfdba3d956c6eefa72df9\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+119-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\9ded089c40adfdba3d956c6eefa72df9\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+120
+121        <provider
+121-->[com.google.firebase:firebase-common:19.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\881b429d8f9b3a6d7be45bbfd29342d9\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+122            android:name="com.google.firebase.provider.FirebaseInitProvider"
+122-->[com.google.firebase:firebase-common:19.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\881b429d8f9b3a6d7be45bbfd29342d9\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+123            android:authorities="com.app.img2txt.firebaseinitprovider"
+123-->[com.google.firebase:firebase-common:19.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\881b429d8f9b3a6d7be45bbfd29342d9\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+124            android:exported="false"
+124-->[com.google.firebase:firebase-common:19.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\881b429d8f9b3a6d7be45bbfd29342d9\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+125            android:initOrder="100" />
+125-->[com.google.firebase:firebase-common:19.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\881b429d8f9b3a6d7be45bbfd29342d9\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+126
+127        <receiver
+127-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:29:9-33:20
+128            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+128-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:30:13-85
+129            android:enabled="true"
+129-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:31:13-35
+130            android:exported="false" >
+130-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:32:13-37
+131        </receiver>
+132        <receiver
+132-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:34:9-42:20
+133            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+133-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:35:13-100
+134            android:enabled="true"
+134-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:36:13-35
+135            android:exported="true"
+135-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:37:13-36
+136            android:permission="android.permission.INSTALL_PACKAGES" >
+136-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:38:13-69
+137            <intent-filter>
+137-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:39:13-41:29
+138                <action android:name="com.android.vending.INSTALL_REFERRER" />
+138-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:40:17-79
+138-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:40:25-76
+139            </intent-filter>
+140        </receiver>
+141
+142        <service
+142-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:44:9-47:40
+143            android:name="com.google.android.gms.measurement.AppMeasurementService"
+143-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:45:13-84
+144            android:enabled="true"
+144-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:46:13-35
+145            android:exported="false" />
+145-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:47:13-37
+146        <service
+146-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:48:9-52:72
+147            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+147-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:49:13-87
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:50:13-35
+149            android:exported="false"
+149-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:51:13-37
+150            android:permission="android.permission.BIND_JOB_SERVICE" />
+150-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\krypton\.gradle\caches\transforms-2\files-2.1\06fe5057ef5f9e661882d5f190cd86b1\play-services-measurement-17.2.0\AndroidManifest.xml:52:13-69
+151    </application>
+152
+153</manifest>
